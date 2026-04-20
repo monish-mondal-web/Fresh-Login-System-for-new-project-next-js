@@ -4,6 +4,24 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Create your local environment file before starting the app:
+
+```bash
+cp .env.example .env.local
+```
+
+Fill in these variables in `.env.local`:
+
+```env
+MONGODB_URI=
+NEXTAUTH_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+NEXTAUTH_URL=
+EMAIL_SERVER_USER=
+EMAIL_SERVER_PASSWORD=
+```
+
 First, run the development server:
 
 ```bash
